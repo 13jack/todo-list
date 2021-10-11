@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 400px;
+    position: fixed;
+    top: 20%;
+    left: 60%;
+    background-color: #546de5;
+}
+
+.all-main {
+    border: 2px solid black;
+    padding: 25px;
+    width: auto;
+    height: auto;
+    background-color: #ff9f1a;
+    border-radius: 10px;
+}
+
+.heading h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 700;
+    text-decoration: underline;
+    font-size: 35px;
+}
+
+.todo input {
+    width: 85%;
+    height: 35px;
+    padding: 5px;
+    border-radius: 10px;
+    border-radius: 0px;
+    margin-bottom: 5px;
+}
+
+.todo button {
+    width: 45px;
+    height: 35px;
+    border-radius: 15px;
+    background-color: #32ff7e;
+}
+
+.footer span {
+    justify-items: center;
+    align-content: center;
+    display: inline;
+}
+
+.footer {
+    display: flex;
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.footer-btn {
+    width: 75px;
+    height: 30px;
+    background-color: #ff3838;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+.test {
+    margin-top: 20px;
+    max-width: 85%;
+    overflow-y: auto;
+    height: 200px;
+}
+
+.test li {
+    position: relative;
+    list-style: none;
+    margin-bottom: 2px;
+    background: #f2f2f2;
+    border-radius: 3px;
+    padding: 10px 15px;
+    cursor: default;
+    overflow: hidden;
+}
+
+.test li:hover {
+    background-color: lawngreen;
+}
+
+.test .icon {
+    position: absolute;
+    right: -5px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #e74c3c;
+    width: 55px;
+    text-align: center;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.todoList li:hover .icon {
+    right: 0px;
+}
